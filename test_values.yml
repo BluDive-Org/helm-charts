@@ -1,0 +1,24 @@
+name: log-reader-prod
+project: prod-project
+chart: log-reader-helm-chart
+namespace: log-reader-prod
+values: | -
+  replicaCount: 1
+  image:
+    repository: nginx
+
+  imagePullSecrets: []
+  nameOverride: "nginx"
+  fullnameOverride: "nginx"
+  podAnnotations: {}
+  containerPort: 80
+
+
+  ingress:
+    enabled: true
+    host: nginx 
+  resources: {}
+
+  autoscaling:
+    enabled: false
+
