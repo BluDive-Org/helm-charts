@@ -1,0 +1,12 @@
+apiVersion: v1
+entries:
+  dev-helm-chart:
+  - apiVersion: v2
+    created: "2026-05-28T12:23:55.321773+01:00"
+    description: A Helm chart for dev cluster
+    digest: 7ac4df2178cdfcd478f7e8b90da2f4b1e5819366adeb22b493ac6c6f7b6483a4
+    name: dev-helm-chart
+    urls:
+    - dev-helm-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-05-28T12:23:55.321339+01:00"

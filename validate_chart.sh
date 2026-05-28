@@ -1,2 +1,2 @@
 #!/bin/bash
-helm template -f $1 . --debug
+cd dev-helm-chart && helm template . --debug
