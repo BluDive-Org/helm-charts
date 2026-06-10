@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: {{ .Values.ingress.ingressClassName | default "nginx"}}
   rules:
-    - host: "{{ .Values.ingress.host }}.platform.bludiv.net"
+    - host: "{{ .Values.ingress.host }}.apps.ocp.bludive.net"
       http:
         paths:
           - backend:
